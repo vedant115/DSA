@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/vedant115/LeetCode/tree/master/0118-pascals-triangle) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -34,4 +35,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0118-pascals-triangle](https://github.com/vedant115/LeetCode/tree/master/0118-pascals-triangle) |
 <!---LeetCode Topics End-->
