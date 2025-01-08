@@ -8,7 +8,7 @@ public:
         }
 
         int n = s.size();
-        int j =0;
+        int j = 0;
 
         for(int num : s){
             nums[j++] = num;
