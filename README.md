@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/vedant115/LeetCode/tree/master/0283-move-zeroes) |
+| [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/vedant115/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/vedant115/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/vedant115/LeetCode/tree/master/0283-move-zeroes) |
+| [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
@@ -56,10 +58,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 ## Binary Search
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -68,4 +72,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
