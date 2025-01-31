@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/vedant115/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/vedant115/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0518-coin-change-ii](https://github.com/vedant115/LeetCode/tree/master/0518-coin-change-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0118-pascals-triangle](https://github.com/vedant115/LeetCode/tree/master/0118-pascals-triangle) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vedant115/LeetCode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0518-coin-change-ii](https://github.com/vedant115/LeetCode/tree/master/0518-coin-change-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Math
 |  |
