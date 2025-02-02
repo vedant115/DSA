@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0118-pascals-triangle](https://github.com/vedant115/LeetCode/tree/master/0118-pascals-triangle) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vedant115/LeetCode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0518-coin-change-ii](https://github.com/vedant115/LeetCode/tree/master/0518-coin-change-ii) |
@@ -92,4 +93,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+## String
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
