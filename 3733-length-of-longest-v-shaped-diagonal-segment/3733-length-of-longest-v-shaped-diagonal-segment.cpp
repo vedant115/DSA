@@ -2,24 +2,27 @@ class Solution {
 private:
     // 0 : top-left, 1 : top-right, 2 : bottom-right, 3 : bottom-left
     vector<vector<int>> dir = {{-1, -1}, {-1, 1}, {1, 1}, {1, -1}};
+    int dp[501][501][3][4][2];
 
-    int func(int row, int col, int numReq, int d, int turn, vector<vector<int>>& grid){
+    int func(int row, int col, int numReq, int d, int turn, vector<vector<int>>& grid, int dp[501][501][3][4][2]){
         if(row < 0 || col < 0 || row == grid.size() || col == grid[0].size()) return 0;
         if(grid[row][col] != numReq) return 0;
+        if(dp[row][col][numReq][d][turn] != -1) return dp[row][col][numReq][d][turn];
 
         int newNumReq = (numReq == 2) ? 0 : 2;
         
-        int alongDiag = 1 + func(row+dir[d][0], col+dir[d][1], newNumReq, d, turn, grid);
+        int alongDiag = 1 + func(row+dir[d][0], col+dir[d][1], newNumReq, d, turn, grid, dp);
         int rotateNinety = 0;
-        if(!turn) rotateNinety = 1 + func(row+dir[(d+1)%4][0], col+dir[(d+1)%4][1], newNumReq, (d+1)%4, 1, grid);
+        if(!turn) rotateNinety = 1 + func(row+dir[(d+1)%4][0], col+dir[(d+1)%4][1], newNumReq, (d+1)%4, 1, grid, dp);
 
-        return max(alongDiag, rotateNinety);
+        return dp[row][col][numReq][d][turn] = max(alongDiag, rotateNinety);
     }
 public:
     int lenOfVDiagonal(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
         int res = 0;
+        memset(dp, -1, sizeof(dp));
 
         int maxSeg = 0;
         for(int i=0; i<n; i++){
@@ -27,7 +30,7 @@ public:
                 if(grid[i][j] == 1){
                     maxSeg = 0;
                     for(int d=0; d<4; d++){
-                        maxSeg = max(maxSeg, 1+func(i+dir[d][0], j+dir[d][1], 2, d, 0, grid));
+                        maxSeg = max(maxSeg, 1+func(i+dir[d][0], j+dir[d][1], 2, d, 0, grid, dp));
                     }
                 }
                 res = max(res, maxSeg);
