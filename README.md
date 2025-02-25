@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0790-global-and-local-inversions](https://github.com/vedant115/LeetCode/tree/master/0790-global-and-local-inversions) |
 | [0792-binary-search](https://github.com/vedant115/LeetCode/tree/master/0792-binary-search) |
 | [0948-sort-an-array](https://github.com/vedant115/LeetCode/tree/master/0948-sort-an-array) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/vedant115/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3227-find-missing-and-repeated-values](https://github.com/vedant115/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Two Pointers
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/vedant115/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0518-coin-change-ii](https://github.com/vedant115/LeetCode/tree/master/0518-coin-change-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/vedant115/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Math
 |  |
 | ------- |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
 | [0790-global-and-local-inversions](https://github.com/vedant115/LeetCode/tree/master/0790-global-and-local-inversions) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/vedant115/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [3227-find-missing-and-repeated-values](https://github.com/vedant115/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
@@ -202,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/vedant115/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/vedant115/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Stack
 |  |
 | ------- |
