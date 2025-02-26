@@ -3,21 +3,18 @@ public:
     int maxAbsoluteSum(vector<int>& nums) {
         int n = nums.size();
         int res, minSum = INT_MAX, maxSum = INT_MIN;
-        int sum1 = 0, sum2 = 0;
+        int currMinSum = 0, currMaxSum = 0;
+
         for(int i=0; i<n; i++){
-            sum1 += nums[i], sum2 += nums[i];
+            currMinSum += nums[i];
+            minSum = min(minSum, currMinSum);
+            if(currMinSum > 0) currMinSum = 0;
 
-            minSum = min(minSum, sum1);
-            if(sum1 > nums[i]){
-                sum1 = nums[i];
-            }
+            currMaxSum += nums[i];
+            maxSum = max(maxSum, currMaxSum);
+            if(currMaxSum < 0) currMaxSum = 0;
 
-            maxSum = max(maxSum, sum2);
-            if(sum2 < 0){
-                sum2 = 0;
-            }
-
-            res = max(maxSum, abs(minSum));
+            res = max(abs(minSum), maxSum);
         }
         return res;
     }
