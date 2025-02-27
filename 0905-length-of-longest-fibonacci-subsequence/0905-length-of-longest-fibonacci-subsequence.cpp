@@ -11,7 +11,7 @@ public:
             for(int j=1; j<k; j++){
                 int a = arr[k] - arr[j];
                 if(mpp.find(a) != mpp.end() && mpp[a] < j){
-                    dp[j][k] = max(dp[j][k], dp[mpp[a]][j] + 1);
+                    dp[j][k] = dp[mpp[a]][j] + 1;
                 }
             }
         }
