@@ -1,15 +1,16 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
-        vector<bool> needsPair(501, false);
+        unordered_set<int> unpaired;
 
-        for(auto num : nums){
-            needsPair[num] = !needsPair[num];
+        for(int num : nums){
+            if(unpaired.count(num)){
+                unpaired.erase(num);
+            }
+            else{
+                unpaired.insert(num);
+            }
         }
-
-        for(auto num : nums){
-            if(needsPair[num]) return false;
-        }
-        return true;
+        return unpaired.empty();
     }
 };
