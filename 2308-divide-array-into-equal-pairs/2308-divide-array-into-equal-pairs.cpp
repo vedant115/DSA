@@ -1,12 +1,14 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
-        unordered_map<int, int> counter;
+        vector<bool> needsPair(501, false);
+
         for(auto num : nums){
-            counter[num]++;
+            needsPair[num] = !needsPair[num];
         }
-        for(auto [num, freq] : counter){
-            if(freq%2) return false;
+
+        for(auto num : nums){
+            if(needsPair[num]) return false;
         }
         return true;
     }
