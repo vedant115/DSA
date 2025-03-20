@@ -1,6 +1,6 @@
 class Solution {
 private:
-    void dfs(int node, vector<vector<int>>& adj, int compNo, vector<int>& vis, unordered_map<int, int>& nodeComp){
+    void dfs(int node, vector<vector<int>>& adj, int compNo, vector<int>& vis, vector<int>& nodeComp){
         vis[node] = 1;
         nodeComp[node] = compNo;
 
@@ -13,7 +13,6 @@ private:
     }
 public:
     vector<int> minimumCost(int n, vector<vector<int>>& edges, vector<vector<int>>& query) {
-
         vector<vector<int>> adj(n, vector<int>(0));
         for(auto& edge : edges){
             int u = edge[0], v = edge[1];
@@ -21,7 +20,7 @@ public:
             adj[v].push_back(u);
         }
 
-        unordered_map<int, int> nodeComp;
+        vector<int> nodeComp(n, -1);
         vector<int> vis(n, 0);
         int compNo = 0;
         for(int i=0; i<n; i++){
@@ -40,7 +39,6 @@ public:
         vector<int> ans;
         for(auto& q : query){
             if(q[0] == q[1]){
-                cout << "In same nodes query :" << q[0] << " " << q[1];
                 ans.push_back(0);
             }
             else if(nodeComp[q[0]] == nodeComp[q[1]]){
