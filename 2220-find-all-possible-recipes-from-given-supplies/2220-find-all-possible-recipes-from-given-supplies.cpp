@@ -2,9 +2,9 @@ class Solution {
 public:
     vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supply) {
         unordered_set<string> supplies(supply.begin(), supply.end());
-
         unordered_map<string, vector<string>> DAG;
         unordered_map<string, int> inDegree;
+        
         for(auto& recipe : recipes){
             inDegree[recipe] = 0;
         }
@@ -25,12 +25,12 @@ public:
 
         vector<string> res;
         while(!q.empty()){
-            string recipe = q.front();
+            string ingredient = q.front();
             q.pop();
-            res.push_back(recipe);
-            for(auto& ingredient : DAG[recipe]){
-                inDegree[ingredient]--;
-                if(inDegree[ingredient] == 0) q.push(ingredient);
+            res.push_back(ingredient);
+            for(auto& recipe : DAG[ingredient]){
+                inDegree[recipe]--;
+                if(inDegree[recipe] == 0) q.push(recipe);
             }
         }
 
