@@ -8,23 +8,15 @@ private:
 public:
     int countDays(int days, vector<vector<int>>& meetings) {
         sort(meetings.begin(), meetings.end(), compare);
-        int freeDays = 0;
-        int current_end = 0;
-        
-        for (auto& meeting : meetings) {
-            int start = meeting[0];
-            int end = meeting[1];
-            // If there is a gap before this meeting starts
-            if (start > current_end + 1) {
-                freeDays += (start - current_end - 1);
+        int prev = 0;
+        int res = 0;
+        for(auto& arr : meetings){
+            if(arr[0] > prev){
+                res += (arr[0] - prev - 1);
             }
-            // Update current_end by merging overlapping intervals
-            current_end = max(current_end, end);
+            prev = max(prev, arr[1]);
         }
-        // Count any free days after the last meeting until 'days'
-        if (current_end < days) {
-            freeDays += (days - current_end);
-        }
-        return freeDays;
+        if(prev < days) res += (days - prev);
+        return res;
     }
 };
