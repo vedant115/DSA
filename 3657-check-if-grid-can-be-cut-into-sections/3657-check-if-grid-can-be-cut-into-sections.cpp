@@ -5,44 +5,33 @@ private:
             return a[1] < b[1];
         return a[0] < b[0];
     }
+
+    bool check(vector<vector<int>>& intervals) {
+        int count = 0;
+        int prevEnd = 0;
+        for (const auto& interval : intervals) {
+            if (interval[0] >= prevEnd) {
+                count++;
+                prevEnd = interval[1];
+            } else {
+                prevEnd = max(prevEnd, interval[1]);
+            }
+        }
+        return count >= 3;
+    }
 public:
     bool checkValidCuts(int n, vector<vector<int>>& rectangles) {
-        vector<vector<int>> verticalGrps;
-        vector<vector<int>> horizontalGrps;
+        vector<vector<int>> verticalIntervals;
+        vector<vector<int>> horizontalIntervals;
 
-        for (int i = 0; i < rectangles.size(); i++) {
-            verticalGrps.push_back({rectangles[i][0], rectangles[i][2]});
-            horizontalGrps.push_back({rectangles[i][1], rectangles[i][3]});
+        for (const auto& rect : rectangles) {
+            verticalIntervals.push_back({rect[0], rect[2]});
+            horizontalIntervals.push_back({rect[1], rect[3]});
         }
 
-        sort(verticalGrps.begin(), verticalGrps.end(), compare);
-        sort(horizontalGrps.begin(), horizontalGrps.end(), compare);
+        sort(verticalIntervals.begin(), verticalIntervals.end(), compare);
+        sort(horizontalIntervals.begin(), horizontalIntervals.end(), compare);
 
-        int prevX = 0;
-        int resX = 0;
-        for(auto& arr : verticalGrps){
-            if(arr[0] >= prevX) {
-                resX++;
-            }
-            prevX = max(prevX, arr[1]);
-            
-
-        }
-        cout<<"Res X -" <<resX;
-        if(resX >= 3) return true;
-
-        int prevY = 0;
-        int resY = 0;
-        for(auto& arr : horizontalGrps){
-            if(arr[0] >= prevY) {
-                resY++;
-            }
-            prevY = max(prevY, arr[1]);
-
-        }
-        cout<<"Res Y -" <<resY;
-        if(resY >= 3) return true;
-
-        return false;
+        return check(verticalIntervals) || check(horizontalIntervals);
     }
 };
