@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/vedant115/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/vedant115/LeetCode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/vedant115/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2551-apply-operations-to-an-array](https://github.com/vedant115/LeetCode/tree/master/2551-apply-operations-to-an-array) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0560-subarray-sum-equals-k](https://github.com/vedant115/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/vedant115/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant115/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/vedant115/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/vedant115/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0139-word-break](https://github.com/vedant115/LeetCode/tree/master/0139-word-break) |
+| [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant115/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/vedant115/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/vedant115/LeetCode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vedant115/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [3001-apply-operations-to-maximize-score](https://github.com/vedant115/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Recursion
 |  |
