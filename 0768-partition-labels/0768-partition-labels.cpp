@@ -1,24 +1,23 @@
 class Solution {
 public:
-    vector<int> partitionLabels(string s) {
-        int n = s.size();
-        unordered_map<char, int> lastSeen;
-        for(int i=0; i<n; i++){
-            lastSeen[s[i]] = i;
+    vector<int> partitionLabels(string s){
+        // Step 1: Store the last occurrence of each character
+        unordered_map<char, int> lastIndex;
+        for (int i = 0; i < s.length(); i++) {
+            lastIndex[s[i]] = i;
         }
 
-        int size = 0, end = -1;
-        vector<int> res;
-        for(int i=0; i<n; i++){
-            if(end < lastSeen[s[i]]){
-                end = lastSeen[s[i]];
+        vector<int> partitions;
+        int start = 0, end = 0;
+        // Step 2: Iterate and determine partitions
+        for (int i = 0; i < s.length(); i++) {
+            end = max(end, lastIndex[s[i]]);
+            if (i == end) {
+                partitions.push_back(end - start + 1);
+                start = i + 1;
             }
-            if(i == end){
-                res.push_back(size+1);
-                size = -1;
-            }
-            size++;
         }
-        return res;
+
+        return partitions;
     }
 };
