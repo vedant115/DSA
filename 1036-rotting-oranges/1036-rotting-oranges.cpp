@@ -1,39 +1,53 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int m = grid.size(), n = grid[0].size();
+        int n = grid.size();
+        int m = grid[0].size();
         queue<pair<int, int>> q;
-        int total = 0;
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                if(grid[i][j] == 2) q.push({i, j});
-    
-                if(grid[i][j] != 0) total++;
+        int freshCount = 0;
+
+        // Initialize the queue with rotten oranges and count fresh oranges
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 2) {
+                    q.push({i, j});
+                } else if (grid[i][j] == 1) {
+                    freshCount++;
+                }
             }
         }
 
-        int count = 0, time = 0;
-        vector<vector<int>> dir = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-        while(!q.empty()){
-            int rottenCnt = q.size();
-            count += rottenCnt;
-            
-            while(rottenCnt--){
-                auto cell = q.front();
+        // If there are no fresh oranges, return 0
+        if (freshCount == 0) return 0;
+
+        int result = -1;
+        int directions[4][2] = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+
+        // BFS to spread the rot
+        while (!q.empty()) {
+            int size = q.size();
+            result++;  // Increment time at each level
+
+            for (int i = 0; i < size; i++) {
+                int row = q.front().first;
+                int col = q.front().second;
                 q.pop();
-                int row = cell.first, col = cell.second;
-                for(auto d : dir){
-                    int nRow = row + d[0], nCol = col + d[1];
-                    if((nRow >= 0 && nRow < m) && (nCol >= 0 && nCol < n) && grid[nRow][nCol] == 1){
-                        q.push({nRow, nCol});
-                        grid[nRow][nCol] = 2;
+
+                for (int d = 0; d < 4; d++) {
+                    int nrow = row + directions[d][0];
+                    int ncol = col + directions[d][1];
+
+                    // If it's a fresh orange, rot it and add it to the queue
+                    if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && grid[nrow][ncol] == 1) {
+                        grid[nrow][ncol] = 2;
+                        q.push({nrow, ncol});
+                        freshCount--;
                     }
                 }
             }
-            if(q.size() > 0) time++;
         }
 
-        if(count == total) return time;
-        return -1;
+        // If there are still fresh oranges left, return -1
+        return freshCount == 0 ? result : -1;
     }
 };
