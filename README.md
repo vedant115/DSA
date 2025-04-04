@@ -8,12 +8,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2793-count-the-number-of-complete-components](https://github.com/vedant115/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
@@ -21,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/vedant115/LeetCode/tree/master/1036-rotting-oranges) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/vedant115/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/vedant115/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 ## Binary Tree
@@ -28,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 ## Array
 |  |
 | ------- |
@@ -162,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/vedant115/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/vedant115/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant115/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/vedant115/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/vedant115/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
