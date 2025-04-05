@@ -10,23 +10,23 @@
  * };
  */
 class Solution {
-public:
-    pair<TreeNode*, int> dfs(TreeNode* root) {
-        if (!root) {
-            return {nullptr, 0};
-        }
+private:
+    pair<TreeNode*, int> dfs(TreeNode* root, int depth){
+        if(!root) return {NULL, depth};
 
-        auto left = dfs(root->left);
-        auto right = dfs(root->right);
+        auto left = dfs(root->left, depth+1);
+        auto right = dfs(root->right, depth+1);
 
-        if (left.second > right.second) {
-            return {left.first, left.second + 1};
+        if(left.second > right.second){
+            return {left.first, left.second};
         }
-        if (left.second < right.second) {
-            return {right.first, right.second + 1};
+        else if(left.second < right.second){
+            return {right.first, right.second};
         }
-        return {root, left.second + 1};
+        return {root, left.second};
     }
-
-    TreeNode* lcaDeepestLeaves(TreeNode* root) { return dfs(root).first; }
+public:
+    TreeNode* lcaDeepestLeaves(TreeNode* root) {
+        return dfs(root, 0).first;
+    }
 };
