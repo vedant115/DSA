@@ -1,22 +1,40 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
-        int n = nums.size();
-        if(n == 1){
-            if(nums[0] < k) return -1;
-            else if(nums[0] == k) return 0;
-            else return 1;
+        // It's impossible to make all elements equal to k if any element is less than k.
+        if (*min_element(nums.begin(), nums.end()) < k) {
+            return -1;
         }
+        
+        // If all elements are already k, no operations are required.
+        if (*max_element(nums.begin(), nums.end()) == k) {
+            return 0;
+        }
+        
+        // Sort the array in descending order.
         sort(nums.begin(), nums.end(), greater<int>());
-        int prev = nums[0], res = 0, i = 0;
-        for(i=1; i<n; i++){
-            if(nums[i] != prev){
-                res++;
+        
+        int operations = 0;
+        int current = nums.front();
+        
+        // Process values from highest and count distinct values > k.
+        for (int num : nums) {
+            if (num <= k) {
+                break; // Stop once we encounter a value not greater than k.
             }
-            if(nums[i] < k) break;
-            prev = nums[i];
+            // Only count a change when a new distinct value is encountered.
+            if (num < current) {
+                current = num;
+                operations++;
+            }
         }
-        if(nums[n-1] > k) res++;
-        return i < n ? -1 : res;
+        
+        // If the current value (the smallest among those > k) is still not equal to k,
+        // one additional operation is needed.
+        if (current != k) {
+            operations++;
+        }
+        
+        return operations;
     }
 };
