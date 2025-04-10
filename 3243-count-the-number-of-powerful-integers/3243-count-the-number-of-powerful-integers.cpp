@@ -2,9 +2,8 @@ class Solution {
 public:
     long long numberOfPowerfulInt(long long start, long long finish, int limit, string s) {
         string lower = to_string(start-1), upper = to_string(finish);
-        long long x = calculate(upper, s, limit), y = calculate(lower, s, limit);
-        cout << x << " " << y;
-        return x - y;
+        
+        return calculate(upper, s, limit) - calculate(lower, s, limit);
     }
 
     long long calculate(string bound, string suffix, int limit){
