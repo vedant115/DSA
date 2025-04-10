@@ -22,9 +22,11 @@ public:
             }
             else{
                 ans += (bound[i]-'0') * pow(limit+1, n-i-1);
+                // skips digits equal to bound[i]
             }
         }
 
+        //considers all skipped digit and verifies
         if(bound.substr(n, suffix.size()) >= suffix) ans++;
         return ans;
     }
