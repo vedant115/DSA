@@ -4,9 +4,9 @@ public:
         if (n == 1) return "1";
 
         string s = "1";
-        string ans = "";
         for(int ch=2; ch<=n; ch++){
             int i = 0;
+            string ans = "";
             while (i < s.length()) {
                 int count = 1;
                 while (i + 1 < s.length() && s[i] == s[i + 1]) {
@@ -18,7 +18,6 @@ public:
                 i++;
             }
             s = ans;
-            ans = "";
         }
         return s;
     }
