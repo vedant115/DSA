@@ -10,7 +10,7 @@ public:
 
         for(auto& [k, count] : freq) {
             int groupSize = k + 1;
-            int groups = (count + groupSize - 1) / groupSize;  // ceiling division
+            int groups = ceil((double)count / groupSize);
             res += groups * groupSize;
         }
 
