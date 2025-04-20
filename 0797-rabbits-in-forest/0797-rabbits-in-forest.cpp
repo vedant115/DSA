@@ -1,28 +1,19 @@
 class Solution {
 public:
     int numRabbits(vector<int>& answers) {
-        unordered_map<int, int> uniqRabbits;
+        unordered_map<int, int> freq;
         int res = 0;
-        for(int num : answers){
-            if(num == 0){
-                res++;
-                continue;
-            }
-            uniqRabbits[num]++;
+        
+        for(int ans : answers) {
+            freq[ans]++;
         }
 
-        for(auto& rabbit : uniqRabbits){
-            if(rabbit.second > rabbit.first+1){
-                // possible rabbits in one group
-                res += ((rabbit.second / (rabbit.first+1))*(rabbit.first+1));
-                //remaining rabbits in one group
-                if(rabbit.second % (rabbit.first+1) > 0)
-                    res += (rabbit.first+1);
-            }
-            else
-
-                res += rabbit.first+1;
+        for(auto& [k, count] : freq) {
+            int groupSize = k + 1;
+            int groups = (count + groupSize - 1) / groupSize;  // ceiling division
+            res += groups * groupSize;
         }
+
         return res;
     }
 };
