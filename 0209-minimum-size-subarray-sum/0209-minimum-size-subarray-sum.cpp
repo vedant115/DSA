@@ -2,16 +2,25 @@ class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
         int n = nums.size();
-        int start = 0;
-        int sum = 0, minLen = INT_MAX;
-        for(int end=0; end<n; end++){
-            sum += nums[end];
-            while(start < n && sum >= target){
-                minLen = min(minLen, (end-start+1));
-                sum -= nums[start];
-                start++;
+        vector<int> prefix(n + 1, 0);
+
+        // Build prefix sum
+        for (int i = 0; i < n; ++i)
+            prefix[i + 1] = prefix[i] + nums[i];
+
+        int minLen = n + 1;
+
+        for (int i = 0; i < n; ++i) {
+            // Find the smallest j such that prefix[j] - prefix[i] >= target
+            int toFind = prefix[i] + target;
+            auto bound = lower_bound(prefix.begin(), prefix.end(), toFind);
+
+            if (bound != prefix.end()) {
+                int j = bound - prefix.begin();
+                minLen = min(minLen, j - i);
             }
         }
-        return minLen == INT_MAX ? 0 : minLen;
+
+        return minLen == n + 1 ? 0 : minLen;
     }
 };
