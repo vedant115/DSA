@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vedant115/LeetCode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/vedant115/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vedant115/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/vedant115/LeetCode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/vedant115/LeetCode/tree/master/0018-4sum) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vedant115/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/vedant115/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/vedant115/LeetCode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/vedant115/LeetCode/tree/master/0018-4sum) |
@@ -410,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/vedant115/LeetCode/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0134-gas-station](https://github.com/vedant115/LeetCode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/vedant115/LeetCode/tree/master/0135-candy) |
