@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/vedant115/LeetCode/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/vedant115/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/vedant115/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0674-longest-continuous-increasing-subsequence](https://github.com/vedant115/LeetCode/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0790-global-and-local-inversions](https://github.com/vedant115/LeetCode/tree/master/0790-global-and-local-inversions) |
 | [0792-binary-search](https://github.com/vedant115/LeetCode/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/vedant115/LeetCode/tree/master/0797-rabbits-in-forest) |
