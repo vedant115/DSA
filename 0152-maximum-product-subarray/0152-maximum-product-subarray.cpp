@@ -1,18 +1,23 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int n = nums.size();
-        int prefix = 1, suffix = 1;
-        int res = INT_MIN, prod = 1;
-        for(int i=0; i<n; i++){
-            if(prefix == 0) prefix = 1;
-            if(suffix == 0) suffix = 1;
+        if (nums.empty()) return 0;
 
-            prefix *= nums[i];
-            suffix *= nums[n-i-1];
+        int maxProd = nums[0];
+        int maxSoFar = nums[0];
+        int minSoFar = nums[0];
 
-            res = max(res, max(prefix, suffix));
+        for (int i = 1; i < nums.size(); ++i) {
+            // As num is negative maxSoFar will be minSoFar*num
+            // and minSoFar will be maxSoFar*num
+            if (nums[i] < 0) swap(maxSoFar, minSoFar);
+
+            maxSoFar = max(nums[i], nums[i] * maxSoFar);
+            minSoFar = min(nums[i], nums[i] * minSoFar);
+
+            maxProd = max(maxProd, maxSoFar);
         }
-        return res;
+
+        return maxProd;
     }
 };
