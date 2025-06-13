@@ -1,40 +1,54 @@
 class Solution {
+private:
+    void merge(vector<pair<int, int>>& nums, int low, int mid, int high, vector<int>& res){
+        int left = low, right = mid+1;
+
+        vector<pair<int, int>> temp;
+        while(left <= mid && right <= high){
+            if(nums[left].first <= nums[right].first){
+                temp.push_back(nums[right]);
+                right++;
+            }
+            else{
+                res[nums[left].second] += high-right+1;
+                temp.push_back(nums[left]);
+                left++;
+            }
+        }
+
+        while(left <= mid){
+            temp.push_back(nums[left]);
+            left++;
+        }
+
+        while(right <= high){
+            temp.push_back(nums[right]);
+            right++;
+        }
+
+        for(int i=low; i<=high; i++){
+            nums[i] = temp[i-low];
+        }
+    }
+    void mergeSortHelper(vector<pair<int, int>>& nums, int low, int high, vector<int>& res){
+        if(low >= high) return;
+
+        int mid = (low + high)/2;
+        mergeSortHelper(nums, low, mid, res);
+        mergeSortHelper(nums, mid+1, high, res);
+        merge(nums, low, mid, high, res);
+    }
 public:
-    int n;
-    vector<int> bit;
-
-    void update(int val, int id) {
-        while (id <= n) {
-            bit[id] += val;
-            id += id & -id;
-        }
-    }
-
-    int query(int id) {
-        int ans = 0;
-        while (id > 0) {
-            ans += bit[id];
-            id -= id & -id;
-        }
-        return ans;
-    }
-
     vector<int> countSmaller(vector<int>& nums) {
-        n = nums.size();
-        bit = vector<int>(n + 1, 0);
+        int n = nums.size();
 
         vector<pair<int, int>> v;
         for (int i = 0; i < n; i++)
             v.push_back({nums[i], i});
-        
-        sort(v.begin(), v.end());
 
-        vector<int> ans(n, 0);
-        for (auto& [val, idx] : v) {
-            update(1, idx + 1);
-            ans[idx] = query(n) - query(idx + 1);
-        }
+        vector<int> res(n, 0);
+        mergeSortHelper(v, 0, n-1, res);
 
-        return ans;
+        return res;
     }
 };
