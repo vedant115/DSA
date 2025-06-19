@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/vedant115/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/vedant115/LeetCode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/vedant115/LeetCode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
@@ -484,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
+| [0050-powx-n](https://github.com/vedant115/LeetCode/tree/master/0050-powx-n) |
 | [2050-count-good-numbers](https://github.com/vedant115/LeetCode/tree/master/2050-count-good-numbers) |
 ## Divide and Conquer
 |  |
