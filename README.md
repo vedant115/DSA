@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0327-count-of-range-sum](https://github.com/vedant115/LeetCode/tree/master/0327-count-of-range-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0368-largest-divisible-subset](https://github.com/vedant115/LeetCode/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/vedant115/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/vedant115/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/vedant115/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/vedant115/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/vedant115/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/vedant115/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/vedant115/LeetCode/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/vedant115/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/vedant115/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/vedant115/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/vedant115/LeetCode/tree/master/0518-coin-change-ii) |
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0315-count-of-smaller-numbers-after-self](https://github.com/vedant115/LeetCode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0327-count-of-range-sum](https://github.com/vedant115/LeetCode/tree/master/0327-count-of-range-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0410-split-array-largest-sum](https://github.com/vedant115/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0493-reverse-pairs](https://github.com/vedant115/LeetCode/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/vedant115/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/vedant115/LeetCode/tree/master/0713-subarray-product-less-than-k) |
@@ -478,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/vedant115/LeetCode/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/vedant115/LeetCode/tree/master/0179-largest-number) |
 | [0324-wiggle-sort-ii](https://github.com/vedant115/LeetCode/tree/master/0324-wiggle-sort-ii) |
+| [0410-split-array-largest-sum](https://github.com/vedant115/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/vedant115/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vedant115/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
@@ -592,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/vedant115/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0410-split-array-largest-sum](https://github.com/vedant115/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/vedant115/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/vedant115/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vedant115/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
