@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/vedant115/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/vedant115/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/vedant115/LeetCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2737-row-with-maximum-ones](https://github.com/vedant115/LeetCode/tree/master/2737-row-with-maximum-ones) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/vedant115/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/vedant115/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/vedant115/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/vedant115/LeetCode/tree/master/1036-rotting-oranges) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/vedant115/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/vedant115/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2737-row-with-maximum-ones](https://github.com/vedant115/LeetCode/tree/master/2737-row-with-maximum-ones) |
 | [3227-find-missing-and-repeated-values](https://github.com/vedant115/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/vedant115/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/vedant115/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
