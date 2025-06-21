@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/vedant115/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/vedant115/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vedant115/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2047-find-a-peak-element-ii](https://github.com/vedant115/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/vedant115/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/vedant115/LeetCode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/vedant115/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/vedant115/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/vedant115/LeetCode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/vedant115/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [2047-find-a-peak-element-ii](https://github.com/vedant115/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vedant115/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/vedant115/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/vedant115/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -559,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/vedant115/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0945-snakes-and-ladders](https://github.com/vedant115/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/vedant115/LeetCode/tree/master/1036-rotting-oranges) |
+| [2047-find-a-peak-element-ii](https://github.com/vedant115/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/vedant115/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/vedant115/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2737-row-with-maximum-ones](https://github.com/vedant115/LeetCode/tree/master/2737-row-with-maximum-ones) |
