@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/vedant115/LeetCode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/vedant115/LeetCode/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/vedant115/LeetCode/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/vedant115/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0229-majority-element-ii](https://github.com/vedant115/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
@@ -272,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/vedant115/LeetCode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/vedant115/LeetCode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/vedant115/LeetCode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/vedant115/LeetCode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/vedant115/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/vedant115/LeetCode/tree/master/0368-largest-divisible-subset) |
@@ -701,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/vedant115/LeetCode/tree/master/0204-count-primes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/vedant115/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3001-apply-operations-to-maximize-score](https://github.com/vedant115/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Backtracking
@@ -719,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/vedant115/LeetCode/tree/master/0204-count-primes) |
 | [0875-longest-mountain-in-array](https://github.com/vedant115/LeetCode/tree/master/0875-longest-mountain-in-array) |
 | [1656-count-good-triplets](https://github.com/vedant115/LeetCode/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vedant115/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
