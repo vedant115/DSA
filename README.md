@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vedant115/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/vedant115/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/vedant115/LeetCode/tree/master/0053-maximum-subarray) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vedant115/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/vedant115/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/vedant115/LeetCode/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
@@ -714,6 +716,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/vedant115/LeetCode/tree/master/0022-generate-parentheses) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vedant115/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Combinatorics
 |  |
