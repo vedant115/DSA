@@ -1,24 +1,26 @@
 class Solution {
-private: 
-    void func(int sum, int last, vector<int> &nums, int k, vector<vector<int>> &ans) {
-        if(sum == 0 && nums.size() == k) {
-            ans.push_back(nums);
-            return; 
+public:
+    void backtrack(int num, int k, int n, vector<int>& path, vector<vector<int>>& result) {
+        // Base case
+        if (k == 0 && n == 0) {
+            result.push_back(path);
+            return;
         }
-        if(sum <= 0 || nums.size() > k) return; 
+        if (num > 9 || k < 0 || n < 0) return;
 
-        for(int i = last; i <= 9; i++) {
-            nums.push_back(i); 
-            func(sum - i, i + 1, nums, k, ans); 
-            nums.pop_back(); 
-        }
+        // Include current number
+        path.push_back(num);
+        backtrack(num + 1, k - 1, n - num, path, result);
+        path.pop_back();  // backtrack
+
+        // Skip current number
+        backtrack(num + 1, k, n, path, result);
     }
 
-public:
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<vector<int>> ans; 
-        vector<int> nums; 
-        func(n, 1, nums, k, ans);
-        return ans; 
+        vector<vector<int>> result;
+        vector<int> path;
+        backtrack(1, k, n, path, result);
+        return result;
     }
 };
