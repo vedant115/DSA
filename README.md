@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/vedant115/LeetCode/tree/master/0079-word-search) |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/vedant115/LeetCode/tree/master/0386-lexicographical-numbers) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/vedant115/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/vedant115/LeetCode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/vedant115/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/vedant115/LeetCode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/vedant115/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/vedant115/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/vedant115/LeetCode/tree/master/0090-subsets-ii) |
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/vedant115/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/vedant115/LeetCode/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
+| [0079-word-search](https://github.com/vedant115/LeetCode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/vedant115/LeetCode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/vedant115/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/vedant115/LeetCode/tree/master/0139-word-break) |
@@ -601,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/vedant115/LeetCode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/vedant115/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/vedant115/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/vedant115/LeetCode/tree/master/0079-word-search) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/vedant115/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0945-snakes-and-ladders](https://github.com/vedant115/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/vedant115/LeetCode/tree/master/1036-rotting-oranges) |
@@ -732,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/vedant115/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/vedant115/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/vedant115/LeetCode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/vedant115/LeetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/vedant115/LeetCode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/vedant115/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/vedant115/LeetCode/tree/master/0216-combination-sum-iii) |
