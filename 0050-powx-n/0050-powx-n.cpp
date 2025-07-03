@@ -1,24 +1,19 @@
 class Solution {
+private:
+    double fastPow(double x, long long n) {
+        if (n == 0) return 1;
+        if (n % 2 == 0)
+            return fastPow(x * x, n / 2);
+        else
+            return x * fastPow(x, n - 1);
+    }
 public:
-    double myPow(double base, int n) {
-        double ans = 1;
-        bool isNeg = false;
+    double myPow(double x, int n) {
         long long exp = n;
-        if(exp < 0){
-            isNeg = true;
-            exp *= -1;
+        if (exp < 0) {
+            x = 1 / x;
+            exp = -exp;
         }
-
-        // Exponentiation by squaring method
-        while (exp > 0) {
-            if (exp % 2 == 1) {
-                exp--;
-                ans *= base;
-            } else {
-                exp /= 2;
-                base *= base;
-            }
-        }
-        return isNeg ? 1/ans : ans;
+        return fastPow(x, exp);
     }
 };
