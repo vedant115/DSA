@@ -1,23 +1,12 @@
 class Solution {
 public:
-    static vector<int> dp; 
-    Solution() {
-        if(dp.empty()){
-            dp.resize(31, -1);
-            dp[0] = 0;
-            dp[1] = 1;
-        }
-    }
     int fib(int n) {
-        if(n <= 1){
-            return dp[n];
-        }
-        else if(dp[n] != -1){
-            return dp[n];
-        }
-        else{
-            return dp[n] = fib(n-1) + fib(n-2);
-        }
+        if (n < 2) return n;
+        vector<int> dp(n + 1);
+        dp[0] = 0;
+        dp[1] = 1;
+        for (int i = 2; i <= n; ++i)
+            dp[i] = dp[i - 1] + dp[i - 2];
+        return dp[n];
     }
 };
-vector<int> Solution::dp;
