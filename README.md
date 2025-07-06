@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vedant115/LeetCode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/vedant115/LeetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/vedant115/LeetCode/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/vedant115/LeetCode/tree/master/0069-sqrtx) |
@@ -580,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/vedant115/LeetCode/tree/master/0002-add-two-numbers) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/vedant115/LeetCode/tree/master/0050-powx-n) |
 | [1013-fibonacci-number](https://github.com/vedant115/LeetCode/tree/master/1013-fibonacci-number) |
@@ -821,4 +823,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0324-wiggle-sort-ii](https://github.com/vedant115/LeetCode/tree/master/0324-wiggle-sort-ii) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/vedant115/LeetCode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
