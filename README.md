@@ -585,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/vedant115/LeetCode/tree/master/0002-add-two-numbers) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/vedant115/LeetCode/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/vedant115/LeetCode/tree/master/0206-reverse-linked-list) |
 | [1013-fibonacci-number](https://github.com/vedant115/LeetCode/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/vedant115/LeetCode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/vedant115/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -829,5 +830,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/vedant115/LeetCode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vedant115/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0206-reverse-linked-list](https://github.com/vedant115/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/vedant115/LeetCode/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
