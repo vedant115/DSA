@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/vedant115/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/vedant115/LeetCode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/vedant115/LeetCode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vedant115/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/vedant115/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/vedant115/LeetCode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/vedant115/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -458,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/vedant115/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0948-sort-an-array](https://github.com/vedant115/LeetCode/tree/master/0948-sort-an-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/vedant115/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vedant115/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/vedant115/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vedant115/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/vedant115/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/vedant115/LeetCode/tree/master/0948-sort-an-array) |
 | [1389-minimum-moves-to-move-a-box-to-their-target-location](https://github.com/vedant115/LeetCode/tree/master/1389-minimum-moves-to-move-a-box-to-their-target-location) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vedant115/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/vedant115/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/vedant115/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/vedant115/LeetCode/tree/master/2681-put-marbles-in-bags) |
@@ -564,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/vedant115/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vedant115/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vedant115/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/vedant115/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1929-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/vedant115/LeetCode/tree/master/1929-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/vedant115/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
