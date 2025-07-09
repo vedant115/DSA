@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/vedant115/LeetCode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/vedant115/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/vedant115/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/vedant115/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/vedant115/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/vedant115/LeetCode/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/vedant115/LeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/vedant115/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/vedant115/LeetCode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/vedant115/LeetCode/tree/master/0055-jump-game) |
 | [0118-pascals-triangle](https://github.com/vedant115/LeetCode/tree/master/0118-pascals-triangle) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/vedant115/LeetCode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0131-palindrome-partitioning](https://github.com/vedant115/LeetCode/tree/master/0131-palindrome-partitioning) |
@@ -561,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/vedant115/LeetCode/tree/master/0011-container-with-most-water) |
 | [0044-wildcard-matching](https://github.com/vedant115/LeetCode/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/vedant115/LeetCode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/vedant115/LeetCode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/vedant115/LeetCode/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/vedant115/LeetCode/tree/master/0179-largest-number) |
