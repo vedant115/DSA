@@ -317,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/vedant115/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1013-fibonacci-number](https://github.com/vedant115/LeetCode/tree/master/1013-fibonacci-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/vedant115/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/vedant115/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/vedant115/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/vedant115/LeetCode/tree/master/1500-count-largest-group) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/vedant115/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
@@ -865,4 +866,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/vedant115/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/vedant115/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/vedant115/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/vedant115/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 <!---LeetCode Topics End-->
