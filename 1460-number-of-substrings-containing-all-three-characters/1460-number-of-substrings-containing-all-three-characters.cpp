@@ -1,26 +1,18 @@
 class Solution {
 public:
     int numberOfSubstrings(string s) {
-        int l = 0, r = 0, res = 0;
+        int l = 0, res = 0;
         unordered_map<char, int> freq;
-        while(r < s.size()){
+
+        for (int r = 0; r < s.size(); ++r) {
             freq[s[r]]++;
-            while(freq['a'] >= 1 && freq['b'] >= 1 && freq['c'] >= 1){
-                if(freq[s[l]] > 1){
-                    freq[s[l]]--;
-                    l++;  
-                }
-                else{
-                    break;
-                }
-                if(freq['a'] == 1 && freq['b'] == 1 && freq['c'] == 1){
-                    break;
-                }
+
+            // Shrink the window while it contains all 3 characters
+            while (freq['a'] > 0 && freq['b'] > 0 && freq['c'] > 0) {
+                res += s.size() - r;  // all substrings from l to end that include r
+                freq[s[l]]--;
+                l++;
             }
-            if(freq['a'] >= 1 && freq['b'] >= 1 && freq['c'] >= 1){
-                res += (l + 1);
-            }
-            r++;
         }
         return res;
     }
