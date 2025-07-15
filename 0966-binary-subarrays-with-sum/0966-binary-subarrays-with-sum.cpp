@@ -1,21 +1,16 @@
 class Solution {
 public:
-    int countSubarrayWithAtMostSum(vector<int>& nums, int goal){
-        if(goal < 0) return 0;
-        int l = 0, r = 0, count = 0;
-        long long sum = 0;
-        while(r < nums.size()){
-            sum += nums[r];
-            while(sum > goal){
-                sum -= nums[l];
-                l++;
-            }
-            count += (r-l+1);
-            r++;
-        }
-        return count;
-    }
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        return countSubarrayWithAtMostSum(nums, goal) - countSubarrayWithAtMostSum(nums, goal-1);
+        unordered_map<int, int> sumFreq;
+        int currSum = 0, res = 0;
+        sumFreq[0] = 1;
+        for(int i=0; i<nums.size(); i++){
+            currSum += nums[i];
+            if(sumFreq.find(currSum - goal) != sumFreq.end()){
+                res += sumFreq[currSum - goal];
+            }
+            sumFreq[currSum]++;
+        }
+        return res;
     }
 };
