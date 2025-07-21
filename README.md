@@ -561,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/vedant115/LeetCode/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/vedant115/LeetCode/tree/master/0179-largest-number) |
 | [0344-reverse-string](https://github.com/vedant115/LeetCode/tree/master/0344-reverse-string) |
+| [0402-remove-k-digits](https://github.com/vedant115/LeetCode/tree/master/0402-remove-k-digits) |
 | [0768-partition-labels](https://github.com/vedant115/LeetCode/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/vedant115/LeetCode/tree/master/0868-push-dominoes) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/vedant115/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -599,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/vedant115/LeetCode/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/vedant115/LeetCode/tree/master/0179-largest-number) |
 | [0324-wiggle-sort-ii](https://github.com/vedant115/LeetCode/tree/master/0324-wiggle-sort-ii) |
+| [0402-remove-k-digits](https://github.com/vedant115/LeetCode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/vedant115/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/vedant115/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/vedant115/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -760,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/vedant115/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0155-min-stack](https://github.com/vedant115/LeetCode/tree/master/0155-min-stack) |
+| [0402-remove-k-digits](https://github.com/vedant115/LeetCode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/vedant115/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/vedant115/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/vedant115/LeetCode/tree/master/0735-asteroid-collision) |
@@ -824,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/vedant115/LeetCode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/vedant115/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/vedant115/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/vedant115/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
