@@ -577,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/vedant115/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/vedant115/LeetCode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant115/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/vedant115/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/vedant115/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/vedant115/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/vedant115/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -621,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/vedant115/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/vedant115/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/vedant115/LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/vedant115/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1929-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/vedant115/LeetCode/tree/master/1929-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/vedant115/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vedant115/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -782,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/vedant115/LeetCode/tree/master/0735-asteroid-collision) |
 | [0937-online-stock-span](https://github.com/vedant115/LeetCode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/vedant115/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/vedant115/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2227-sum-of-subarray-ranges](https://github.com/vedant115/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/vedant115/LeetCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/vedant115/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
