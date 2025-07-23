@@ -380,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/vedant115/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/vedant115/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/vedant115/LeetCode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0460-lfu-cache](https://github.com/vedant115/LeetCode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/vedant115/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/vedant115/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/vedant115/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
@@ -791,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/vedant115/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/vedant115/LeetCode/tree/master/0155-min-stack) |
 | [0307-range-sum-query-mutable](https://github.com/vedant115/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [0460-lfu-cache](https://github.com/vedant115/LeetCode/tree/master/0460-lfu-cache) |
 | [0937-online-stock-span](https://github.com/vedant115/LeetCode/tree/master/0937-online-stock-span) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/vedant115/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 ## Sliding Window
@@ -927,6 +929,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/vedant115/LeetCode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/vedant115/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/vedant115/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/vedant115/LeetCode/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/vedant115/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Hash Function
 |  |
@@ -940,4 +943,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/vedant115/LeetCode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/vedant115/LeetCode/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
