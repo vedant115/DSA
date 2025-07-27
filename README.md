@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/vedant115/LeetCode/tree/master/0100-same-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/vedant115/LeetCode/tree/master/0079-word-search) |
+| [0100-same-tree](https://github.com/vedant115/LeetCode/tree/master/0100-same-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/vedant115/LeetCode/tree/master/0386-lexicographical-numbers) |
@@ -28,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/vedant115/LeetCode/tree/master/0100-same-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/vedant115/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0945-snakes-and-ladders](https://github.com/vedant115/LeetCode/tree/master/0945-snakes-and-ladders) |
@@ -42,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/vedant115/LeetCode/tree/master/0100-same-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/vedant115/LeetCode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vedant115/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/vedant115/LeetCode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
