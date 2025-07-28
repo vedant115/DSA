@@ -11,20 +11,18 @@
  */
 class Solution {
 private:
-    void dfsRight(TreeNode* root, int level, map<int, int>& mpp){
+    void dfsRight(TreeNode* root, int level, vector<int>& res){
         if(!root) return;
 
-        mpp[level] = root->val;
+        if(res.size() == level) res.push_back(root->val);
 
-        if(root->left) dfsRight(root->left, level+1, mpp);
-        if(root->right) dfsRight(root->right, level+1, mpp);
+        if(root->right) dfsRight(root->right, level+1, res);
+        if(root->left) dfsRight(root->left, level+1, res);
     }
 public:
     vector<int> rightSideView(TreeNode* root) {
-        map<int, int> mpp;
         vector<int> res;
-        dfsRight(root, 0, mpp);
-        for(auto& [row, val] : mpp) res.push_back(val);
+        dfsRight(root, 0, res);
         return res;
     }
 };
