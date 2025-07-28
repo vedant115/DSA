@@ -14,11 +14,10 @@ private:
     void dfsRight(TreeNode* root, int level, map<int, int>& mpp){
         if(!root) return;
 
-        if(mpp.find(level) == mpp.end())
-            mpp[level] = root->val;
+        mpp[level] = root->val;
 
-        if(root->right) dfsRight(root->right, level+1, mpp);
         if(root->left) dfsRight(root->left, level+1, mpp);
+        if(root->right) dfsRight(root->right, level+1, mpp);
     }
 public:
     vector<int> rightSideView(TreeNode* root) {
