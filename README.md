@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2144-maximum-difference-between-increasing-elements](https://github.com/vedant115/LeetCode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/vedant115/LeetCode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/vedant115/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vedant115/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/vedant115/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/vedant115/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/vedant115/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -510,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/vedant115/LeetCode/tree/master/0268-missing-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/vedant115/LeetCode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vedant115/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vedant115/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/vedant115/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/vedant115/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/vedant115/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -923,6 +925,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/vedant115/LeetCode/tree/master/0257-binary-tree-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vedant115/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/vedant115/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vedant115/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Combinatorics
 |  |
 | ------- |
@@ -940,6 +943,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/vedant115/LeetCode/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/vedant115/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/vedant115/LeetCode/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/vedant115/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2215-finding-3-digit-even-numbers](https://github.com/vedant115/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2998-count-symmetric-integers](https://github.com/vedant115/LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3201-distribute-candies-among-children-ii](https://github.com/vedant115/LeetCode/tree/master/3201-distribute-candies-among-children-ii) |
