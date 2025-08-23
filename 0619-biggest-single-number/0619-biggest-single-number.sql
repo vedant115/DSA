@@ -1,0 +1,8 @@
+SELECT (CASE WHEN COUNT(n.num) = 0 THEN null ELSE n.num END) num 
+FROM 
+(SELECT num
+FROM MyNumbers
+GROUP BY num
+HAVING COUNT(num) = 1
+ORDER BY num DESC
+LIMIT 1) n;
