@@ -1,13 +1,12 @@
-SELECT m.id, SUM(m.num) num
-FROM(
-    SELECT requester_id id, COUNT(accepter_id) num
-    FROM RequestAccepted
-    GROUP BY requester_id
-    UNION All
-    SELECT accepter_id id, COUNT(requester_id) num
-    FROM RequestAccepted
-    GROUP BY accepter_id
-) m
-GROUP BY m.id
-ORDER BY num DESC
-LIMIT 1;
+WITH all_ids AS (
+   SELECT requester_id AS id 
+   FROM RequestAccepted
+   UNION ALL
+   SELECT accepter_id AS id
+   FROM RequestAccepted)
+SELECT id, 
+   COUNT(id) AS num
+FROM all_ids
+GROUP BY id
+ORDER BY COUNT(id) DESC
+LIMIT 1
